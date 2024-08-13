@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 0; /* Remove padding from header */
+}
+
+.background-image {
+  background-image: url('./Background.png'); /* Path to your logo */
+  background-size: contain; /* Ensure the image scales appropriately */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  height: 300px; /* Adjust the height to make the image big */
+  width: 100%; /* Ensure the image spans the full width */
+}
+
+.text-content {
+  padding: 20px 0; /* Add padding to the text content */
+}
+
+.text-content h1 {
+  margin: 10px 0;
+}
+
+.text-content p {
+  color: #777;
+}

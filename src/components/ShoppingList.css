@@ -1,0 +1,60 @@
+.shopping-list {
+  width: 100%; /* Ensure full width alignment with .pantry-inventory */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd; /* Keep the border consistent */
+  border-radius: 10px;
+  box-sizing: border-box; /* Include padding and border in the width */
+  margin-bottom: 20px;
+}
+
+.shopping-list h2 {
+  margin-bottom: 10px;
+}
+
+
+.shopping-list ul {
+  margin-top: 20px; /* Space above the list */
+  padding-left: 20px; /* Adjust padding to align with .pantry-inventory */
+}
+
+.shopping-list li {
+  padding: 12px; /* Consistent padding with .pantry-inventory */
+  border-bottom: 2px solid #ddd; /* Thicker border for better separation */
+}
+.shopping-list li:last-child {
+  border-bottom: none; /* Remove border from last list item */
+}
+.shopping-list li.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+.shopping-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.add-item {
+  display: flex;
+  margin-top: 10px;
+}
+
+.add-item input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-item button {
+  padding: 10px 20px;
+  background-color: #f8b400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-item button:hover {
+  background-color: #d49000;
+}

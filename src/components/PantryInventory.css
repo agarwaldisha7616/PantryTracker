@@ -1,0 +1,49 @@
+.pantry-inventory {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pantry-inventory table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space above the table */
+}
+
+.pantry-inventory th, 
+.pantry-inventory td {
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Thicker border for better separation */
+}
+
+.pantry-inventory th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.pantry-inventory input[type="text"] {
+    width: 100%;
+    padding: 8px; /* Adjust padding inside input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Corrected property name */
+    box-sizing: border-box;
+}
+
+.add-row {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-row button {
+    padding: 12px 24px;
+    background-color: #f8b400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-row button:hover {
+    background-color: #d49000;
+}
